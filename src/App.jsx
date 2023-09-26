@@ -29,7 +29,7 @@ class App extends React.Component {
           <Route component={Home} path="/home" exact />
           <Route component={Home} path="/" exact />
         </Switch>
-        <Footer />
+{/*         <Footer /> */}
       </BrowserRouter>
     );
   }
